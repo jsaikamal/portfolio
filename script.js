@@ -357,7 +357,7 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
       "vinayaka1.png",
       "cbd.png",
       "bbday2.png",
-      "abbba saaam.jpg",	  	  
+      "abbba%20saaam.JPG",	  	  
       "p1.png",
       "p2.jpg",
       "pic 4.png",
@@ -469,4 +469,5 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
   });
 
 });
+
 
