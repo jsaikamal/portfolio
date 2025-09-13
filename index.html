@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jsai Kamal — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<div id="loader">
+  <canvas id="loader-canvas"></canvas>
+  <div class="loader-text">Loading...</div>
+</div>
+
+<body>
+
+<header>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#photos" class="nav-link">Photos</a></li>
+      <li><a href="#videos" class="nav-link">Videos</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- PARTICLES CANVAS (fixed behind content) -->
+<canvas id="particles"></canvas>
+
+<!-- HOME -->
+<section id="home" class="section">
+  <div class="home-inner">
+    <div class="home-text">
+      <h1 class="title">Jsai Kamal</h1>
+      <h2 id="typing" class="typing"></h2>
+      <a href="C:\Users\jsaik\OneDrive\Desktop\new portfolio\saikamaljami.pdf" class="btn small" download>Download Resume</a>
+    </div>
+
+    <div class="home-photo">
+      <img src="C:\Users\jsaik\OneDrive\Desktop\new portfolio\img.jpg" alt="Profile Photo">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2 class="section-heading">About Me</h2>
+  <div class="about-inner">
+    <div class="about-photo">
+      <img src="C:\Users\jsaik\OneDrive\Desktop\new portfolio\IMG_4721.jpg" alt="About Photo">
+    </div>
+    <div class="about-text glass-box">
+      <p>
+        Hi, I’m <strong>Jsai Kamal</strong> — a passionate <strong>Graphic Designer</strong>, 
+        <strong>Photo & Video Editor</strong>, and aspiring <strong>Front-End Developer</strong>.  
+      </p>
+      <p>
+        I love transforming ideas into visually compelling designs and interactive digital 
+        experiences. My work blends creativity with technical skills, whether it’s making 
+        posters, thumbnails, cinematic edits, or building sleek web portfolios.  
+      </p>
+      <p>
+        🚀 <strong>Skills & Tools:</strong> Adobe Photoshop, Premiere Pro, After Effects, Canva,  
+        HTML, CSS, JavaScript, and UI/UX design basics.  
+      </p>
+      <p>
+        🎯 My goal is to create designs and websites that are not only attractive but also 
+        user-friendly, responsive, and impactful.
+      </p>
+      <p class="quote">“Design is not just what it looks like — it’s how it makes people feel.”</p>	  
+    </div>
+  </div>
+</section>
+
+<!-- PHOTOS -->
+<section id="photos" class="section">
+  <h1 class="section-heading">My Works — Photos</h1>
+
+  <h2 class="sub-heading">Posters</h2>
+  <div class="gallery">
+    <div class="item poster"><img src="C:\Users\jsaik\OneDrive\Desktop\new portfolio\birthday3.png" alt="poster1"></div>
+    <div class="item poster"><img src="C:\Users\jsaik\OneDrive\Desktop\new portfolio\pic10.png"alt="poster2"></div>
+    <div class="item poster"><img src="C:\Users\jsaik\OneDrive\Desktop\new portfolio\pspk.png" alt="poster3"></div>
+	
+  </div>
+  <div class="btn-wrapper">
+    <a href="more-photos.html" class="btn small">View More Posters</a>
+  </div>
+
+  <h2 class="sub-heading">Youtube Thumbnails</h2>
+  <div class="gallery">
+    <div class="item thumbnail"><img src="C:\Users\jsaik\OneDrive\Desktop\new portfolio\1000248564.jpg" alt="thumb1"></div>
+    <div class="item thumbnail"><img src="C:\Users\jsaik\OneDrive\Desktop\new portfolio\1000252212.png" alt="thumb2"></div>
+    <div class="item thumbnail"><img src="C:\Users\jsaik\OneDrive\Desktop\new portfolio\1000250551.png" alt="thumb3"></div>
+  </div>
+  <div class="btn-wrapper">
+    <a href="more-photos.html" class="btn small">View More Thumbnails</a>
+  </div>
+</section>
+
+<!-- VIDEOS -->
+<section id="videos" class="section">
+  <h2 class="section-heading">Videos</h2>
+  <div class="gallery">
+    <div class="item video"><video src="https://res.cloudinary.com/dkgxqmcr4/video/upload/pr1_ur1xfw.mp4" preload="metadata" playsinline></video></div>
+    <div class="item video"><video src="C:\Users\jsaik\OneDrive\Desktop\new portfolio\lv_0_20250326171541.mp4" preload="metadata" playsinline></video></div>
+    <div class="item video"><video src="C:\Users\jsaik\OneDrive\Desktop\new portfolio\lv_0_20250817232356.mp4" preload="metadata" playsinline></video></div>
+  </div>
+  
+  <div class="btn-wrapper">
+    <a href="more-videos.html" class="btn small">View More Videos</a>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h1>Contact Me</h1>
+  <div class="contact-row">
+    <a href="mailto:jsaikamal@gmail.com" class="contact-item" style="text-align:left;">Email</a>
+    <a href="tel:+919849146088" class="contact-item" style="text-align:center;">Phone</a>
+    <a href="https://www.instagram.com/ro_the_heart_04?utm_source=qr&igsh=MXY2eWhxbXoyc2Y3eg==" target="_blank" class="contact-item" style="text-align:right;">Instagram</a>
+  </div>
+    <div class="glass-box contact-form">
+    <form id="contact-form">
+      <input type="text" name="from_name" placeholder="Your Name" required />
+      <input type="email" name="from_email" placeholder="Your Email" required />
+      <textarea name="message" rows="4" placeholder="Your Message..." required></textarea>
+      <button type="submit" class="btn small">Send Message 🚀</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© Jsai Kamal. All Rights Reserved.</p>
+</footer>
+
+<!-- LIGHTBOX (created in JS but include fallback container) -->
+<div id="lightbox" class="lightbox" aria-hidden="true">
+  <button class="lightbox-close" aria-label="Close">×</button>
+  <div class="lightbox-content">
+    <img id="lightbox-img" src="" alt="" style="display:none">
+    <video id="lightbox-video" controls style="display:none"></video>
+  </div>
+</div>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
