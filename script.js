@@ -383,8 +383,6 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
       "hanuman1.png",
       "p112.png",
       "sriram.png",
-      "v1.jpg",
-      "v2.jpg",
       "vb.png"	  
 	  
 
@@ -397,23 +395,26 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
   document.querySelectorAll('a[href="more-photos.html"]')[1]?.addEventListener('click', (e) => {
     e.preventDefault();
     const thumbs = [
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/1000248564.jpg",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/1000252212.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/1000250551.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/1000248579.jpg",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/1000251341.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/1000251909.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/1000255147.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/1000255277.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/1000257353.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/1000261885.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/cli7.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/1000256457.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/cli1.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/cli5.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/cli8.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/cli9.png",
-      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/cli11.png"
+      "1000248564.jpg",
+      "1000252212.png",
+      "1000250551.png",
+      "1000248579.jpg",
+      "1000251341.png",
+      "1000251909.png",
+      "1000255147.png",
+      "1000255277.png",
+      "1000257353.png",
+      "1000261885.png",
+      "cli7.png",
+      "1000256457.png",
+      "cli1.png",
+      "cli5.png",
+      "cli8.png",
+      "cli9.png",
+	  "v1.jpg",
+      "v2.jpg",
+      "cli11.png"
+	
 	  
 	  
     ];
@@ -469,6 +470,7 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
   });
 
 });
+
 
 
 
