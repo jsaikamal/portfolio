@@ -318,14 +318,14 @@ window.addEventListener("scroll", () => {
 });
 // Initialize EmailJS
 (function(){
-  emailjs.init("YOUR_PUBLIC_KEY"); // paste your Public Key here
+  emailjs.init("eHjwpQzc0rvWuRmO3"); // paste your Public Key here
 })();
 
 // Handle form submission
 document.getElementById("contact-form").addEventListener("submit", function(e) {
   e.preventDefault();
 
-  emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+  emailjs.sendForm("service_u5omd1e", "template_msm97nm", this)
     .then(() => {
       alert("✅ Message sent successfully!");
       this.reset();
@@ -424,7 +424,7 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
   document.querySelector('a[href="more-videos.html"]')?.addEventListener('click', (e) => {
     e.preventDefault();
     const vids = [
-      "https://res.cloudinary.com/dkgxqmcr4/video/upload/pr1_ur1xfw.mp4",
+      "C:/Users/jsaik/OneDrive/Desktop/new portfolio/pr1.mp4",
       "C:/Users/jsaik/OneDrive/Desktop/new portfolio/lv_0_20250326171541.mp4",
       "C:/Users/jsaik/OneDrive/Desktop/new portfolio/lv_0_20250817232356.mp4",
       "C:/Users/jsaik/OneDrive/Desktop/new portfolio/vd1.mp4",
